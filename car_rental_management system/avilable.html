@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .car-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .car-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .car-details {
+            padding: 15px;
+        }
+        .car-details h2 {
+            margin: 0 0 10px;
+        }
+        .car-details p {
+            margin: 5px 0;
+        }
+        .availability {
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            border-radius: 0 0 10px 10px;
+        }
+        .available {
+            background-color: #28a745;
+        }
+        .not-available {
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>CARS FOR RENT</h1>
+    <div class="car-list">
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-06-20 at 11.21.48 PM.jpeg" alt="Car 1">
+            <div class="car-details">
+                <h2>Scorpio</h2>
+                <p>Brand: Mahindra</p>
+                <p>Price: 5000/day</p>
+            </div>
+            <div class="availability available">Available</div>
+        </div>
+        <div class="car-item">
+            <img src="2.jpg" alt="Car 2">
+            <div class="car-details">
+                <h2>Thar</h2>
+                <p>Brand:  Mahindra</p>
+                <p>Price: 6000/day</p>
+            </div>
+            <div class="availability not-available">Not Available</div>
+        </div>
+        <div class="car-item">
+            <img src="3.jpg" alt="Car 3">
+            <div class="car-details">
+                <h2>S-presso</h2>
+                <p>Brand: Maruti</p>
+                <p>Price: 3000/day</p>
+            </div>
+            <div class="availability available">Available</div>
+        </div>
+        <!-- Add more cars as needed -->
+        <div class="car-item">
+            <img src="4.jpg" alt="Car 3">
+            <div class="car-details">
+                <h2>i 20</h2>
+                <p>Brand: Hundai</p>
+                <p>Price: 4500/day</p>
+            </div>
+            <div class="availability available">Available</div>
+        </div>
+        <div class="car-item">
+            <img src="5.jpg" alt="Car 3">
+            <div class="car-details">
+                <h2>Aulto</h2>
+                <p>Brand: Suzuki</p>
+                <p>Price: 2500/day</p>
+            </div>
+            <div class="availability available">Available</div>
+        </div>
+        <div class="car-item">
+            <img src="6.jpg" alt="Car 3">
+            <div class="car-details">
+                <h2>Tata safari</h2>
+                <p>Brand: Mahindra</p>
+                <p>Price: 5500/day</p>
+            </div>
+            <div class="availability available">Available</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
